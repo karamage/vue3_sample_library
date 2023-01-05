@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
-  "style": "dist/library.mjs.css",
   "files": [
     "dist/*"
   ],
@@ -26,6 +25,7 @@
     "eslint-plugin-vue": "^8.0.3",
     "rollup": "^3.9.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-scss": "3",
     "rollup-plugin-vue": "^6.0.0",
     "sass": "^1.57.1",
