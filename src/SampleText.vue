@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .text {
   font-size: xx-large;
   color: #ff00ff;
