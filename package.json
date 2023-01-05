@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
+  "style": "dist/library.mjs.css",
   "files": [
     "dist/*"
   ],
