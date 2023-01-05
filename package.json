@@ -1,10 +1,14 @@
 {
   "name": "vue3_sample_library",
   "version": "0.1.0",
-  "private": true,
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "rollup -c",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
