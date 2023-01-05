@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+
+  &:placeholder-shown {
+    color: #ccc;
+  }
+}
+
+// Colors
+$color-main: #f13525;
+$color-sub: #f9be4c;
+$color-black: rgba(0, 0, 0, 0.87);
+$color-gray: #c4c4c4;
+$color-smoke: #e6e6e6;
+$color-whitesmoke: #f9f9f9;
+
+// Media Query
+$breakpoint: 768px;
+
+@mixin mq {
+  @media screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin mq-mn {
+  @media screen and (min-width: $breakpoint + 1px) {
+    @content;
+  }
+}

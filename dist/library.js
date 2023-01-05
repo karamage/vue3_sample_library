@@ -40,7 +40,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = "\n.text[data-v-5bf721a0] {\n  font-size: xx-large;\n  color: #ff00ff;\n}\n";
+var css_248z = "*[data-v-5bf721a0],\n*[data-v-5bf721a0]::before,\n*[data-v-5bf721a0]::after {\n  box-sizing: border-box;\n  font-family: inherit;\n  margin: 0;\n  padding: 0;\n}\n*[data-v-5bf721a0]:placeholder-shown,\n*[data-v-5bf721a0]::before:placeholder-shown,\n*[data-v-5bf721a0]::after:placeholder-shown {\n  color: #ccc;\n}\n.text[data-v-5bf721a0] {\n  font-size: xx-large;\n  color: #f9be4c;\n}";
 styleInject(css_248z);
 
 script.render = render;

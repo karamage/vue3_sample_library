@@ -9,9 +9,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style  lang="scss" scoped>
+@import "variables";
 .text {
   font-size: xx-large;
-  color: #ff00ff;
+  color: $color-sub;
 }
 </style>
